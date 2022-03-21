@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 import { Flex } from '../../styles/grid';
 
-export const ResumeContainer = styled(Flex)`
+export const ResumeContainer = styled.div`
+  display: flex;
+  flex-direction: column;
   height: 100%;
   padding: 40px 25px;
-  column-gap: 10px;
+  
   color: black;
   background-color: white;
 
@@ -12,3 +14,10 @@ export const ResumeContainer = styled(Flex)`
     border: none;
   }
 `;
+
+export const Title = styled.h2 `
+  margin: 0 auto 10px;
+  font-size: 1rem;
+  font-weight: 500;
+`;
+

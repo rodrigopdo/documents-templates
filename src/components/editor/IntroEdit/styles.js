@@ -22,3 +22,4 @@ export const Input = styled(AntInput)`
   border-radius: 2px;
   margin-bottom: 5px;
 `;
+
