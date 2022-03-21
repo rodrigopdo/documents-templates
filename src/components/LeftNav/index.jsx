@@ -3,19 +3,14 @@ import React, { useCallback, useState } from 'react';
 import Wrapper from './styles';
 import SideMenu from '../../widgets/SideMenu';
 import SideDrawer from '../../widgets/SideDrawer';
+import { IntroEditor } from '../editor/Editor';
 
 const sideBarList = [
   {
     key: 0,
     title: 'Intro',
     icon: 'identity',
-    component: 'criar componente...'
-  },
-  {
-    key: 0,
-    title: 'Intro',
-    icon: 'identity',
-    component: 'criar componente...'
+    component: <IntroEditor />
   }
 ];
 
