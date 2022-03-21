@@ -1,18 +1,19 @@
 import styled from 'styled-components';
 
-const Sider = styled.nav`
-  height: 100%;
+export const Sider = styled.nav`
+  height: 100vh;
+  max-width: 60px;
   font-size: 1.4rem;
   padding: 8px;
-  background-color: #222;
+  background: #222;
 `;
 
-const IconWrapper = styled.div`
+export const IconWrapper = styled.div`
   outline-color: transparent;
   margin-bottom: 1rem;
 `;
 
-const IconButton = styled.button`
+export const IconButton = styled.button`
   position: relative;
   display: flex;
   flex-direction: row;

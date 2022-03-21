@@ -97,5 +97,5 @@ const icons = new Map([
 
 export function getIcon(iconName) {
   return icons.get(iconName?.toLowerCase());
-}
+};
 

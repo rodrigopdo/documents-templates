@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Container, Wrapper } from './styles';
 
 const SideDrawer = ({ isShown, children }) => {
@@ -9,4 +9,4 @@ const SideDrawer = ({ isShown, children }) => {
   )
 }
 
-export default SideDrawer
+export default SideDrawer;
